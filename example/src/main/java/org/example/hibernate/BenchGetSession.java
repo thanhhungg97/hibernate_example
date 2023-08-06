@@ -11,7 +11,7 @@ public class BenchGetSession {
     public static void main(String[] args) {
         long result = 0;
         for (int i = 0; i < 1000; i++) {
-            result += benchmark2(50);
+            result += benchmark2(300);
         }
         System.out.println(result / 1000);
 
